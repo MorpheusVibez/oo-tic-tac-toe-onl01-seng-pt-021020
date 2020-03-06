@@ -83,7 +83,7 @@ class TicTacToe
   end
 
   def over?
-    !self.won? || self.draw?
+    self.won? || self.draw?
 
   end
 
